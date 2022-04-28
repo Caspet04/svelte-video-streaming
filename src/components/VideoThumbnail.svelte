@@ -1,28 +1,109 @@
 <script>
+    import { onMount } from "svelte";
+
     export let data;
-    let mouseOver = false;
+    let mouseover = false;
+    let container;
+    let right;
+
+    onMount(() => {
+        let innerWidth =
+            window.innerWidth ||
+            document.documentElement.clientWidth ||
+            document.body.clientWidth;
+        right = container.getBoundingClientRect().x > innerWidth / 2;
+    });
 </script>
 
-<div class="container">
-    <img src="{data.coverImage.large}" alt="" on:mouseenter="{() => {mouseOver = true;}}" on:mouseleave="{() => {mouseOver = false;}}" />
-    <div class="hover-info" style="display: {mouseOver ? 'block' : 'none'};">
+<div
+    bind:this={container}
+    class="container {right ? 'right' : 'left'} {mouseover ? 'mouseover' : ''}"
+>
+    <img
+        src={data.coverImage.large}
+        alt=""
+        on:mouseenter={() => {
+            mouseover = true;
+        }}
+        on:mouseleave={() => {
+            mouseover = false;
+        }}
+    />
+    <div class="mouseover-info">
+        <h2>{data.title.english}</h2>
+        <h2>{data.title.english}</h2>
+        <h2>{data.title.english}</h2>
+        <h2>{data.title.english}</h2>
     </div>
 </div>
 
 <style>
-    .container {
-        display: flex;
-        margin: 5px;
-        border-radius: 10px;
-        overflow: hidden;
-        min-width: min-content;
-        box-sizing: border-box;
+    :root {
+        --image-margin: 10px;
+        --image-width: 200px;
+        --image-height: 300px;
+        --border-thickness: 4px;
+        --total-width: calc(
+            var(--image-width) + 2 * var(--image-margin) + 2 *
+                var(--border-thickness)
+        );
+        --info-width: 400px;
     }
 
-    .hover-info {
-        position: relative;
-        width: 100px;
-        height: 100px;
-        background-color: red;
+    .container {
+        display: flex;
+
+        min-width: var(--total-width);
+        width: var(--total-width);
+
+        box-sizing: border-box;
+        margin: 10px 5px;
+
+        border-radius: 10px;
+        border: solid var(--border-thickness) rgb(0, 0, 0);
+
+        overflow: hidden;
+
+        background-color: darkblue;
+    }
+
+    .right.container {
+        flex-direction: row-reverse;
+    }
+
+    .container.mouseover {
+        box-sizing: border-box;
+        z-index: 2;
+        width: calc(var(--info-width) + var(--total-width));
+        border: solid var(--border-thickness) white;
+    }
+
+    .left.container.mouseover {
+        margin-right: calc(0px - var(--info-width) - var(--total-width));
+    }
+
+    .right.container.mouseover {
+        /* BUG: The 5px is needed for some reason*/
+        margin-left: calc(5px - var(--info-width));
+    }
+
+    .container img {
+        width: var(--image-width);
+        min-width: var(--image-width);
+        height: var(--image-height);
+        min-height: var(--image-height);
+
+        padding: var(--image-margin);
+
+        object-fit: cover;
+        overflow: hidden;
+
+        border-radius: 10px;
+    }
+
+    .mouseover-info {
+        width: var(--info-width);
+        height: var(--image-height);
+        overflow: hidden;
     }
 </style>

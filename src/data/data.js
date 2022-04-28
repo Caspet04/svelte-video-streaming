@@ -1349,22 +1349,6 @@ export default {
     },
     {
       "coverImage": {
-        "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx146004-hH08KAB1yHlN.png"
-      },
-      "description": "A series of comedic YouTube shorts airing every Friday on Watame's YouTube channel.",
-      "trailer": {
-        "id": "c3DcpEy3xd8",
-        "site": "youtube",
-        "thumbnail": "https://i.ytimg.com/vi/c3DcpEy3xd8/hqdefault.jpg"
-      },
-      "id": 146004,
-      "status": "RELEASING",
-      "title": {
-        "english": "Watame Did Borderline Nothing Wrong"
-      }
-    },
-    {
-      "coverImage": {
         "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx146488-ht18RcYvtgNP.png"
       },
       "description": "Announced at GUNDAM.INFO's \"GUNDAM FIGURES LIVE!!!\" live stream, the new anime project will reveal anecdotes, unresolved mysteries, and stories to fill-in gaps not explored between the TV anime's first and second seasons of <i>Mobile Suit Gundam 00</i>.<br><br>\n\nSetsuna F. Seiei successfully solved the conflict in Azadistan. However, for Celestial Being that was only a temporary intervention. Meanwhile, the world worked in secret on a counterattack plan in retaliation: Celestial Being through their \"Double Drive\" research, further strengthening Gundam Technology. <br><br>\n\nIncludes:<br>\n- EPISODE DEVISE",
@@ -1425,22 +1409,6 @@ export default {
       "status": "RELEASING",
       "title": {
         "english": "Just Esperia Things"
-      }
-    },
-    {
-      "coverImage": {
-        "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx147886-kWsu35ERAmJl.jpg"
-      },
-      "description": "The second season of <i>Shijian Qiutu</i>.",
-      "trailer": {
-        "id": "ikG-TvDEI6A",
-        "site": "youtube",
-        "thumbnail": "https://i.ytimg.com/vi/ikG-TvDEI6A/hqdefault.jpg"
-      },
-      "id": 147886,
-      "status": "RELEASING",
-      "title": {
-        "english": "Time Prisoner 2"
       }
     }
   ],
