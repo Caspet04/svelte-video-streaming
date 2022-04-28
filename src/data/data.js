@@ -1,4 +1,4 @@
-// NOTE: This is a .js file only because it's easier than making .json importable
+// NOTE: This is a .js file only because it's easier than making .json 
 export default {
   "FINISHED": [
     {
