@@ -21,11 +21,11 @@
                 }}
             >
                 <div id="item-information-content">
-                    <h1 id="item-title">{clickedData.title.english}</h1>
+                    <h1 id="item-title">{clickedData.title}</h1>
                     <p id="item-description">{@html clickedData.description}</p>
                     <img
                         id="item-cover-image"
-                        src={clickedData.coverImage.large}
+                        src={clickedData.cover_image}
                         alt=""
                     />
                 </div>

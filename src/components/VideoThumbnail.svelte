@@ -9,15 +9,17 @@
 
     export function resize() {
         let innerWidth =
-        window.innerWidth ||
-        document.documentElement.clientWidth ||
-        document.body.clientWidth;
+            window.innerWidth ||
+            document.documentElement.clientWidth ||
+            document.body.clientWidth;
         right = container.getBoundingClientRect().x > innerWidth - 650;
     }
-    
+
     function truncate(str, length) {
-        if (str.length < length) {return str;}
-        const substr = str.substr(0, length-1);
+        if (str.length < length) {
+            return str;
+        }
+        const substr = str.substr(0, length - 1);
         return str.substr(0, substr.lastIndexOf(" ")) + "&hellip;";
     }
 
@@ -30,7 +32,7 @@
     class="container {right ? 'right' : 'left'} {mouseover ? 'mouseover' : ''}"
 >
     <img
-        src={data.coverImage.large}
+        src={data.cover_image}
         alt=""
         on:mouseenter={() => {
             mouseover = true;
@@ -39,11 +41,13 @@
             mouseover = false;
         }}
         on:click={() => {
-            if (func) { func(data); }
+            if (func) {
+                func(data);
+            }
         }}
     />
     <div class="mouseover-info">
-        <h2>{data.title.english}</h2>
+        <h2>{data.title}</h2>
         <p>{@html truncate(data.description, 200)}</p>
     </div>
 </div>
