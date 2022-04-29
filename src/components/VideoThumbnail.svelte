@@ -6,13 +6,22 @@
     let container;
     let right;
 
-    onMount(() => {
+    export function resize() {
         let innerWidth =
             window.innerWidth ||
             document.documentElement.clientWidth ||
             document.body.clientWidth;
-        right = container.getBoundingClientRect().x > innerWidth / 2;
-    });
+        right = container.getBoundingClientRect().x > innerWidth - 650;
+    }
+    
+    function truncate(str, length) {
+        if (str.length < length) {return str;}
+        const substr = str.substr(0, length-1);
+        return str.substr(0, substr.lastIndexOf(" ")) + "&hellip;";
+    }
+
+    onMount(resize);
+    window.addEventListener("resize", resize);
 </script>
 
 <div
@@ -31,9 +40,7 @@
     />
     <div class="mouseover-info">
         <h2>{data.title.english}</h2>
-        <h2>{data.title.english}</h2>
-        <h2>{data.title.english}</h2>
-        <h2>{data.title.english}</h2>
+        <p>{@html truncate(data.description, 200)}</p>
     </div>
 </div>
 
