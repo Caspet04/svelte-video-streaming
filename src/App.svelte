@@ -4,12 +4,35 @@
 
     const ITEMS_PER_CATEGORY = 20;
 
+    let clickedData;
+
     function itemClicked(data) {
-        console.log(data);
+        clickedData = data;
     }
 </script>
 
 <main>
+    <div id="overlays">
+        {#if clickedData != null}
+            <div
+                id="item-information-overlay"
+                on:click={() => {
+                    clickedData = null;
+                }}
+            >
+                <div id="item-information-content">
+                    <h1 id="item-title">{clickedData.title.english}</h1>
+                    <p id="item-description">{@html clickedData.description}</p>
+                    <img
+                        id="item-cover-image"
+                        src={clickedData.coverImage.large}
+                        alt=""
+                    />
+                </div>
+            </div>
+        {/if}
+    </div>
+
     <div id="navbar" />
 
     <div id="banner">
@@ -84,5 +107,27 @@
         height: 576px;
         background-image: url(https://live.staticflickr.com/7450/10612779376_9b93277b9e_b.jpg);
         box-shadow: 0 0 25px 30px rgb(0, 0, 20) inset;
+    }
+
+    #overlays div {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+        z-index: 100;
+    }
+
+    #item-information-overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    #item-information-content {
+        margin: auto;
+        border-radius: 40px;
+        background-color: white;
+        width: 50vw;
+        height: 50vh;
     }
 </style>
