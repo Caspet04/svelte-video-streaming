@@ -29,7 +29,7 @@
 </script>
 
 <div class="category">
-    <h3 class="category-title">{title}</h3>
+    <h2 class="category-title">{title}</h2>
     <div class="category-content">
         {#each Array(numberOfItems) as i}
             <VideoThumbnail data={getRandom()} />
@@ -39,18 +39,19 @@
 
 <style>
     .category {
-        margin-left: 40px;
-        margin-right: 40px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
 
     .category-title {
         color: white;
-        font-size: 1.4em;
+        font-size: 2.5em;
     }
 
     .category-content {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(230px, auto));
-        grid-auto-rows: min-content;
+        grid-template-rows: min-content min-content;
+        grid-auto-rows: 0;
     }
 </style>

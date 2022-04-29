@@ -60,7 +60,7 @@
         margin: 10px 5px;
 
         border-radius: 10px;
-        border: solid var(--border-thickness) rgb(0, 0, 0);
+        border: solid var(--border-thickness) rgb(0, 0, 60);
 
         overflow: hidden;
 
@@ -83,7 +83,7 @@
     }
 
     .right.container.mouseover {
-        /* BUG: The 5px is needed for some reason*/
+        /* HACK: The 5px is needed for some reason*/
         margin-left: calc(5px - var(--info-width));
     }
 
@@ -105,5 +105,13 @@
         width: var(--info-width);
         height: var(--image-height);
         overflow: hidden;
+
+        color: white;
+    }
+
+    .container p {
+        position: relative;
+        font-size: 1.4em;
+        line-height: 1.4em;
     }
 </style>
