@@ -2,7 +2,7 @@
     import Category from "./components/Category.svelte";
     import data from "./data/data";
 
-    const ITEMS_PER_CATEGORY = 200;
+    const ITEMS_PER_CATEGORY = 20;
 </script>
 
 <main>
