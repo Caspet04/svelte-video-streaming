@@ -2,15 +2,16 @@
     import { onMount } from "svelte";
 
     export let data;
+    export let func;
     let mouseover = false;
     let container;
     let right;
 
     export function resize() {
         let innerWidth =
-            window.innerWidth ||
-            document.documentElement.clientWidth ||
-            document.body.clientWidth;
+        window.innerWidth ||
+        document.documentElement.clientWidth ||
+        document.body.clientWidth;
         right = container.getBoundingClientRect().x > innerWidth - 650;
     }
     
@@ -36,6 +37,9 @@
         }}
         on:mouseleave={() => {
             mouseover = false;
+        }}
+        on:click={() => {
+            if (func) { func(data); }
         }}
     />
     <div class="mouseover-info">

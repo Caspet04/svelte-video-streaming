@@ -2,6 +2,7 @@
     import { randomItem, multirun } from "../js/utility";
     import VideoThumbnail from "./VideoThumbnail.svelte";
 
+    export let func;
     export let numberOfItems = 10;
     export let title = "Category";
     export let list = [];
@@ -32,7 +33,14 @@
     <h2 class="category-title">{title}</h2>
     <div class="category-content">
         {#each Array(numberOfItems) as i}
-            <VideoThumbnail data={getRandom()} />
+            <VideoThumbnail
+                data={getRandom()}
+                func={(data) => {
+                    if (func) {
+                        func(data);
+                    }
+                }}
+            />
         {/each}
     </div>
 </div>

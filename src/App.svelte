@@ -3,6 +3,10 @@
     import data from "./data/data";
 
     const ITEMS_PER_CATEGORY = 20;
+
+    function itemClicked(data) {
+        console.log(data);
+    }
 </script>
 
 <main>
@@ -17,21 +21,25 @@
             numberOfItems={ITEMS_PER_CATEGORY}
             title="Airing This Week"
             list={data.RELEASING}
+            func={itemClicked}
         />
         <Category
             numberOfItems={ITEMS_PER_CATEGORY}
             title="Recommended"
             list={data.FINISHED}
+            func={itemClicked}
         />
         <Category
             numberOfItems={ITEMS_PER_CATEGORY}
             title="Trending"
             list={data.RELEASING}
+            func={itemClicked}
         />
         <Category
             numberOfItems={ITEMS_PER_CATEGORY}
             title="To Come"
             list={data.NOT_YET_RELEASED}
+            func={itemClicked}
         />
     </div>
 </main>
