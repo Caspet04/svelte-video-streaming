@@ -15,7 +15,7 @@
     <div id="category-list">
         <Category
             numberOfItems={ITEMS_PER_CATEGORY}
-            title="Just Aired"
+            title="Airing This Week"
             list={data.RELEASING}
         />
         <Category
