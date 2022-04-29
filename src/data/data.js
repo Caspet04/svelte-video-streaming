@@ -549,22 +549,6 @@ export default {
     },
     {
       "coverImage": {
-        "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx126369-XCIKagSOhNRx.png"
-      },
-      "description": null,
-      "trailer": {
-        "id": "DglYW83U964",
-        "site": "youtube",
-        "thumbnail": "https://i.ytimg.com/vi/DglYW83U964/hqdefault.jpg"
-      },
-      "id": 126369,
-      "status": "RELEASING",
-      "title": {
-        "english": "You're A Genius!"
-      }
-    },
-    {
-      "coverImage": {
         "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx127911-nKrY6sdaflPK.jpg"
       },
       "description": "The ultimate \"heartthrob girlfriend\" appears! Naturally unlucky high school student Izumi's girlfriend is his classmate Shikimori. She has a beautiful smile and kind personality and always seems happy when she's with Izumi. She's a pretty, cute, and loving girlfriend, but when Izumi's in trouble\u2026 she transforms into a super cool \"heartthrob girlfriend!\" The fun lives of the cute and cool Shikimori, Izumi, and their good friends never end!<br>\n<br>\n(Source: Crunchyroll)",
@@ -849,22 +833,6 @@ export default {
       "status": "RELEASING",
       "title": {
         "english": "Healer Girl"
-      }
-    },
-    {
-      "coverImage": {
-        "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx133866-mf52yAODulWE.jpg"
-      },
-      "description": null,
-      "trailer": {
-        "id": "ZXXLSpmcwdw",
-        "site": "youtube",
-        "thumbnail": "https://i.ytimg.com/vi/ZXXLSpmcwdw/hqdefault.jpg"
-      },
-      "id": 133866,
-      "status": "RELEASING",
-      "title": {
-        "english": "Sword Quest"
       }
     },
     {
@@ -1365,22 +1333,6 @@ export default {
     },
     {
       "coverImage": {
-        "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx146512-ISX3WohPISS2.png"
-      },
-      "description": null,
-      "trailer": {
-        "id": "UjzPmo4ovcs",
-        "site": "youtube",
-        "thumbnail": "https://i.ytimg.com/vi/UjzPmo4ovcs/hqdefault.jpg"
-      },
-      "id": 146512,
-      "status": "RELEASING",
-      "title": {
-        "english": "Interstellar tour"
-      }
-    },
-    {
-      "coverImage": {
         "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx146541-gAKGOKTD9019.jpg"
       },
       "description": "The second season of <i>Xinghe Zhizun</i>.",
@@ -1393,22 +1345,6 @@ export default {
       "status": "RELEASING",
       "title": {
         "english": "Supreme Lord of Galaxy Season 2"
-      }
-    },
-    {
-      "coverImage": {
-        "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx146886-y0LVq6fIZmnm.jpg"
-      },
-      "description": null,
-      "trailer": {
-        "id": "sFszEj7yXk8",
-        "site": "youtube",
-        "thumbnail": "https://i.ytimg.com/vi/sFszEj7yXk8/hqdefault.jpg"
-      },
-      "id": 146886,
-      "status": "RELEASING",
-      "title": {
-        "english": "Just Esperia Things"
       }
     }
   ],
@@ -1623,22 +1559,6 @@ export default {
     },
     {
       "coverImage": {
-        "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx120406-mPBeJVM513LE.png"
-      },
-      "description": null,
-      "trailer": {
-        "id": "1_w_pFHidl4",
-        "site": "youtube",
-        "thumbnail": "https://i.ytimg.com/vi/1_w_pFHidl4/hqdefault.jpg"
-      },
-      "id": 120406,
-      "status": "NOT_YET_RELEASED",
-      "title": {
-        "english": "Lonely Hero"
-      }
-    },
-    {
-      "coverImage": {
         "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx126529-lqu5iGybs8ut.jpg"
       },
       "description": "The second season of <i>Kyokou Suiri</i>.",
@@ -1703,22 +1623,6 @@ export default {
     },
     {
       "coverImage": {
-        "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx133772-2TGEtm2DO07V.png"
-      },
-      "description": null,
-      "trailer": {
-        "id": "ih8PrqeQr-w",
-        "site": "youtube",
-        "thumbnail": "https://i.ytimg.com/vi/ih8PrqeQr-w/hqdefault.jpg"
-      },
-      "id": 133772,
-      "status": "NOT_YET_RELEASED",
-      "title": {
-        "english": "Legend Of Assassin"
-      }
-    },
-    {
-      "coverImage": {
         "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx136303-3kOi5MinwHEv.jpg"
       },
       "description": "As a sequel to the Ikkitousen series, Shin Ikkitousen focuses on highschools which are each equipped with fighters that contain the essence of Ancient Chinese soldiers from the Three Kingdoms with the use of Magatama. Just as the turf war in the Kanto region comes to a stop and progress in recovery is made the area is back on blast following the start of \"Magatama hunting\" with the direction of the powerful leader, Himiko.\n<br><br>\n<i>Note: The first episode received an advance broadcast on March 27, 2022. The regular TV broadcast started on May 17, 2022.</i>",
@@ -1731,22 +1635,6 @@ export default {
       "status": "NOT_YET_RELEASED",
       "title": {
         "english": "Shin Ikki Tousen"
-      }
-    },
-    {
-      "coverImage": {
-        "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx138425-qEgvDwrxmZQy.jpg"
-      },
-      "description": null,
-      "trailer": {
-        "id": "3xWRMYTOY-c",
-        "site": "youtube",
-        "thumbnail": "https://i.ytimg.com/vi/3xWRMYTOY-c/hqdefault.jpg"
-      },
-      "id": 138425,
-      "status": "NOT_YET_RELEASED",
-      "title": {
-        "english": "Teasing Master Takagi-san Movie"
       }
     },
     {
@@ -1811,22 +1699,6 @@ export default {
       "status": "NOT_YET_RELEASED",
       "title": {
         "english": "Detective Conan: The Culprit Hanzawa"
-      }
-    },
-    {
-      "coverImage": {
-        "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx140660-JGGAiaVMJuDC.png"
-      },
-      "description": null,
-      "trailer": {
-        "id": "5cwQeezbnWM",
-        "site": "youtube",
-        "thumbnail": "https://i.ytimg.com/vi/5cwQeezbnWM/hqdefault.jpg"
-      },
-      "id": 140660,
-      "status": "NOT_YET_RELEASED",
-      "title": {
-        "english": "Arknights: Prelude to Dawn"
       }
     },
     {
