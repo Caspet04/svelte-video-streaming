@@ -1,8 +1,6 @@
 <script>
-    import VideoThumbnail from "./components/VideoThumbnail.svelte";
     import Category from "./components/Category.svelte";
     import data from "./data/data";
-    import { randomItem, multirun } from "./js/utility";
 
     const ITEMS_PER_CATEGORY = 200;
 </script>
