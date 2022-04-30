@@ -1,3 +1,4 @@
+<!-- TODO: Refactor and create comments -->
 <script>
     import { onMount } from "svelte";
 

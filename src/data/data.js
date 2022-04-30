@@ -1,4 +1,4 @@
-// NOTE: This is a .js file only because it's easier than making .json work with SvelteTemplate,
+// HACK: This is a .js file only because it's easier than making .json work with SvelteTemplate,
 //       Supposedly it's easier with SvelteKit
 export default {
     FINISHED: [

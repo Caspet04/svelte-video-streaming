@@ -1,3 +1,4 @@
+<!-- TODO: Refactor and create comments -->
 <script>
     import { randomItem, multirun } from "../js/utility";
     import VideoThumbnail from "./VideoThumbnail.svelte";

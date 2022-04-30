@@ -1,3 +1,4 @@
+<!-- TODO: Refactor and create comments -->
 <script>
     import Category from "./components/Category.svelte";
     import data from "./data/data";
@@ -6,6 +7,7 @@
 
     let clickedData;
 
+    // This is just to make it easier to change all category functions at once if need be
     function itemClicked(data) {
         clickedData = data;
     }
