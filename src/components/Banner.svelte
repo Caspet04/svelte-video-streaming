@@ -8,26 +8,23 @@
     export let clickFunction;
 
     let bannerData = [];
-    // TODO: Remove forcing CUE! as the first banner, it's only here for style checks
-    bannerData.push(data.RELEASING[7]);
-
     let bannerIndex = -1; // This is set to 0 since it's incremented immediatly
     let currentBanner;
 
     // Populate bannerData with unique random anime that is releasing
     for (let i = 0; i < 5; i++) {
-        multirun(
-            () => {
-                return randomItem(data.RELEASING);
-            },
-            (item) => {
-                return !bannerData.includes(item);
-            },
-            (item) => {
-                bannerData.push(item);
-            },
-            10,
-            false
+        bannerData.push(
+            multirun(
+                () => {
+                    return randomItem(data.RELEASING);
+                },
+                (item) => {
+                    return !bannerData.includes(item);
+                },
+                null,
+                10,
+                false
+            )
         );
     }
 
@@ -39,7 +36,7 @@
     // Set first banner
     changeBanner();
     // Set move interval
-    setInterval(changeBanner, 500000);
+    setInterval(changeBanner, 7000);
 </script>
 
 <div id="banner">
@@ -60,10 +57,9 @@
     </div>
     <div id="banner-sub-container">
         <h1 id="banner-site-name">ANIFLIX</h1>
-        <!-- TODO: Make style for description a but better and fix overflow -->
         <div id="banner-information">
             <h3 id="banner-title">{@html currentBanner.title}</h3>
-            {#each currentBanner.description.split("<br>") as descPart}
+            {#each currentBanner.banner_highlight.split("<br>") as descPart}
                 <p class="banner-description">
                     {@html descPart}
                 </p>
@@ -107,23 +103,33 @@
         padding: 0;
         margin: 0;
         margin-top: auto;
+        margin-bottom: auto;
         margin-left: 0.5em;
     }
 
     #banner-information {
-        width: 40vw;
+        width: 100%;
         margin-left: 3em;
+        margin-right: 3em;
     }
 
     .banner-description {
+        width: 40vw;
+        min-width: 500px;
+
         margin-top: 0;
         margin-bottom: 0.25em;
+
         color: white;
     }
 
     #banner-title {
         margin-top: 0.5em;
         margin-bottom: 0.5em;
+
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
         color: white;
     }
 

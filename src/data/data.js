@@ -1402,6 +1402,8 @@ export default {
                 "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97938-cT6wkSRifTEC.jpg",
             description:
                 "Naruto was a young shinobi with an incorrigible knack for mischief. He achieved his dream to become the greatest ninja in the village and his face sits atop the Hokage monument. But this is not his story... A new generation of ninja are ready to take the stage, led by Naruto's own son, Boruto!",
+            banner_highlight:
+                "A new generation of ninja are ready to take the stage, led by Naruto's own son, Boruto!",
             trailer: {
                 id: "tgQtFnez67U",
                 site: "youtube",
@@ -1413,26 +1415,12 @@ export default {
         },
         {
             cover_image:
-                "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101184-WXr7zfS6aqNY.jpg",
-            banner_image:
-                "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101184-DAX3YdU5vCeA.jpg",
-            description:
-                "Assorted commercials for the Fate/Grand Order mobile RPG. These short animations are aired on TV and posted to Type-Moon's official YouTube channel, and advertise the game itself or promote a new in-game event. The animation is unique to these commercials and is not present in the game nor in the Fate/Grand Order series.\n<br><br>\nThe list of the commercials is as follows (note that CMs without animation are not present and, for the ones with long and short versions, the longer version is taken into consideration)\n<br><br>\n1) Fate/Grand Order TV-CM \u7b2c1\u5f3e (27 Dec 2014)\n<br>\n2) Fate/Grand Order TV-CM \u7b2c2\u5f3e (27 June 2015)\n<br>\n3) Fate/Grand Order TV-CM \u7b2c3\u5f3e (6 Nov 2015)\n<br>\n4) Fate/Grand Order TV-CM \u7b2c4\u5f3e (30 Dec 2015)\n<br>\n5)\u300eFate/Grand Order\u300f\u00d7\u300e\u7a7a\u306e\u5883\u754c\u300f\u30b3\u30e9\u30dcCM (19 Feb 2016)\n<br>\n6) Fate/Grand Order TV-CM \u7b2c5\u5f3e (25 Mar 2016)\n<br>\n7) \u300cFate/Accel Zero Order\u300d\u544a\u77e5CM (20 Apr 2016)\n<br>\n8) Fate/Grand Order TV-CM \u7b2c6\u5f3e (6 July 2016)\n<br>\n9) \u590f\u3060\uff01 \u6d77\u3060\uff01 FGO 2016 Summer TVCM (8 Aug 2016)\n<br>\n10) TVCM \u7b2c7\u5f3e (6 Dec 2016)\n<br>\n11) TVCM \u7b2c8\u5f3e (22 Feb 2017)\n<br>\n12) Fate/EXTRA CCC\u00d7Fate/Grand Order GW\uff65EX\u30b9\u30da\u30b7\u30e3\u30eb\u30a4\u30d9\u30f3\u30c8\u300cBB\u3061\u3083\u3093\u306e\u9006\u8972/\u96fb\u5b50\u306e\u6d77\u3067\u4f1a\u3044\u307e\u3057\u3087\u3046\uff01\u300d\u544a\u77e5CM (26 Apr 2017)\n<br>\n13) TVCM \u7b2c9\u5f3e (28 June 2017)\n<br>\n14) \u30c7\u30c3\u30c9\u30d2\u30fc\u30c8\uff65\u30b5\u30de\u30fc\u30ec\u30fc\u30b9\uff01TVCM (5 Aug 2017)\n<br>\n15) \u300cFate Grand Order\u300dTVCM \u7b2c10\u5f3e (16 Oct 2017)\n<br>\n16) \u4e9c\u7a2e\u7279\u7570\u70b9\u2163 \u7981\u5fcc\u964d\u81e8\u5ead\u5712 \u30bb\u30a4\u30ec\u30e0 TVCM (28 Nov 2017)\n<br>\n17) Fate/Grand Order -Cosmos in the Lostbelt-\u300d\u6c38\u4e45\u51cd\u571f\u5e1d\u56fd \u30a2\u30ca\u30b9\u30bf\u30b7\u30a2 30\u79d2CM (3 Apr 2018)\n<br>\n18) Fate/Apocrypha \u00d7 Fate/Grand Order \u30b9\u30da\u30b7\u30e3\u30eb\u30a4\u30d9\u30f3\u30c8\u300cApocrypha/Inheritance of Glory\u300d\u544a\u77e5CM (18 May 2018)\n<br>\n19) \u3050\u3060\u3050\u3060\u5e1d\u90fd\u8056\u676f\u5947\u8b5a \u544a\u77e5CM (6 June 2018)\n<br>\n20) Lostbelt No.2 \u7121\u9593\u6c37\u7114\u4e16\u7d00 \u30b2\u30c3\u30c6\u30eb\u30c7\u30e1\u30eb\u30f3\u30b0 \u6d88\u3048\u306c\u708e\u306e\u5feb\u7537\u5150 30\u79d2TVCM (18 July 2018)\n<br>\n21) \u30b5\u30fc\u30f4\u30a1\u30f3\u30c8\uff65\u30b5\u30de\u30fc\uff65\u30d5\u30a7\u30b9\u30c6\u30a3\u30d0\u30eb\uff01 \u544a\u77e5CM (7 Aug 2018)\n<br>\n22) Fate/Grand Order TVCM (5 Sept 2018)\n<br>\n23) Lostbelt No.3 \u4eba\u667a\u7d71\u5408\u771f\u56fd \u30b7\u30f3 30\u79d2CM (30 Nov 2018)\n<br>\n24) \u671f\u9593\u9650\u5b9a\u30a4\u30d9\u30f3\u30c8 \u5fb3\u5ddd\u5efb\u5929\u8ff7\u5bae \u5927\u5965 TVCM (27 Mar 2019)\n<br>\n25) Fate/Grand Order TVCM (17 Apr 2019)\n<br>\n26) Lostbelt No.4 \u5275\u4e16\u6ec5\u4ea1\u8f2a\u5efb \u30e6\u30ac\uff65\u30af\u30b7\u30a7\u30fc\u30c8\u30e9 30\u79d2CM (15 June 2019)\n<br>\n27) \u30aa\u30fc\u30eb\u4fe1\u9577\u7dcf\u9032\u6483 \u3050\u3060\u3050\u3060\u30d5\u30a1\u30a4\u30ca\u30eb\u672c\u80fd\u5bfa2019 30\u79d2\u544a\u77e5CM (3 July 2019)\n<br>\n28) \u300cFate/Grand Order\u300d\u914d\u4fe14\u5468\u5e74\u8a18\u5ff5\u6620\u50cf (4 Aug 2019)\n<br>\n29) \u898b\u53c2\uff01\u30e9\u30b9\u30d9\u30ac\u30b9\u5fa1\u524d\u8a66\u5408 \u6c34\u7740\u5263\u8c6a\u4e03\u8272\u52dd\u8ca0\uff01\u544a\u77e5CM (14 Aug 2019)\n<br>\n30) Fate/Grand Order TVCM (21 Sept 2019)\n<br>\n31) \u30bb\u30a4\u30d0\u30fc\u30a6\u30a9\u30fc\u30ba\uff12 \uff5e\u59cb\u307e\u308a\u306e\u5b87\u5b99\u3078\uff5e TVCM (26 Oct 2019)\n<br>\n32) \u30af\u30ea\u30b9\u30de\u30b92019 \u30ca\u30a4\u30c1\u30f3\u30b2\u30fc\u30eb\u306e\u30af\u30ea\u30b9\u30de\u30b9\uff65\u30ad\u30e3\u30ed\u30eb TVCM (4 Dec 2019)\n<br>\n33) Lostbelt No.5 \u795e\u4ee3\u5de8\u795e\u6d77\u6d0b \u30a2\u30c8\u30e9\u30f3\u30c6\u30a3\u30b9 30\u79d2CM (18 Dec 2019)\n<br>\n34) Fate/Grand Order TVCM (13 Feb 2020)\n<br>\n35) Lostbelt No.5 \u661f\u9593\u90fd\u5e02\u5c71\u8108 \u30aa\u30ea\u30e5\u30f3\u30dd\u30b9 30\u79d2CM (9 Apr 2020)\n<br>\n36) Fate/Requiem\u00d7Fate/Grand Order\u30b3\u30e9\u30dc\u30ec\u30fc\u30b7\u30e7\u30f3\u30a4\u30d9\u30f3\u30c8\u300c\u300eFate/Requiem\u300f\u76e4\u4e0a\u904a\u622f\u9ed9\u793a\u9332\u300dTVCM (25 May 2020)\n<br>\n37)\u300cFate/Grand Order\u300d\u914d\u4fe15\u5468\u5e74\u8a18\u5ff5\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3PV (9 Aug 2020)\n<br>\n38)\u300c\u30b5\u30fc\u30f4\u30a1\u30f3\u30c8\uff65\u30b5\u30de\u30fc\u30ad\u30e3\u30f3\u30d7\uff01 \uff5e\u30ab\u30eb\u30c7\u30a2\uff65\u30b9\u30ea\u30e9\u30fc\u30ca\u30a4\u30c8\uff5e\u300d\u544a\u77e5CM (14 Aug 2020)\n<br>\n39)\u300c\u8d85\u53e4\u4ee3\u65b0\u9078\u7d44\u5217\u4f1d \u3050\u3060\u3050\u3060\u90aa\u99ac\u53f0\u56fd 2020\u300d\u544a\u77e5CM \u30d5\u30ebver. (9 Oct 2020)\n<br>\n40)\u300c\u865a\u6570\u5927\u6d77\u6226\u30a4\u30de\u30b8\u30ca\u30ea\uff65\u30b9\u30af\u30e9\u30f3\u30d6\u30eb \uff5e\u30ce\u30fc\u30c1\u30e9\u30b9\u6d6e\u4e0a\u305b\u3088\uff5e\u300d\u544a\u77e5CM 30\u79d2ver. (9 Nov 2020)\n<br>\n41) \u7b2c2\u90e8 \u7b2c5.5\u7ae0\u300c\u5730\u7344\u754c\u66fc\u837c\u7f85 \u5e73\u5b89\u4eac \u8f5f\u96f7\u4e00\u9583\u300d 30\u79d2CM (2 Dec 2020)\n<br>\n42) \u671f\u9593\u9650\u5b9a\u30a4\u30d9\u30f3\u30c8\u300c\u6804\u5149\u306e\u30b5\u30f3\u30bf\u30af\u30ed\u30fc\u30b9\uff65\u30ed\u30fc\u30c9 \uff5e\u5c01\u3058\u3089\u308c\u305f\u30af\u30ea\u30b9\u30de\u30b9\u30d7\u30ec\u30bc\u30f3\u30c8\uff5e\u300d TVCM (15 Dec 2020)\n<br>\n43) Fate/Grand Order Waltz in the MOONLIGHT/LOSTROOM\u00d7FGO\u30b3\u30e9\u30dc\u30ec\u30fc\u30b7\u30e7\u30f3\u30a4\u30d9\u30f3\u30c8\u300c\u8f1d\u3051\uff01 \u30b0\u30ec\u30a4\u30eb\u30e9\u30a4\u30d6\uff01\uff01 \uff5e\u9db4\u306e\u30a2\u30a4\u30c9\u30eb\u6069\u8fd4\u3057\uff5e\u300d\u544a\u77e5TVCM (26 Apr 2021)\n<br>\n44) Lostbelt No.6 \u5996\u7cbe\u5186\u5353\u9818\u57df \u30a2\u30f4\u30a1\u30ed\u30f3\uff65\u30eb\uff65\u30d5\u30a7 TVCM (11 June 2021)\n<br>\n45) Lostbelt No.6 \u5996\u7cbe\u5186\u5353\u9818\u57df \u30a2\u30f4\u30a1\u30ed\u30f3\uff65\u30eb\uff65\u30d5\u30a7(\u5f8c\u7de8) TVCM (14 July 2021)\n<br>\n46)\u300cFate/Grand Order\u300d\u914d\u4fe16\u5468\u5e74\u8a18\u5ff5\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3PV (1 Aug 2021)\n<br>\n47)\u300c\u30ab\u30eb\u30c7\u30a2\uff65\u30b5\u30de\u30fc\u30a2\u30c9\u30d9\u30f3\u30c1\u30e3\u30fc\uff01 \uff5e\u5922\u8ffd\u3046\u5c11\u5e74\u3068\u5922\u898b\u308b\u5c11\u5973\uff5e\u300d\u544a\u77e5TVCM (8 Sept 2021)\n<br>\n48) \u30cf\u30ed\u30a6\u30a3\u30f3\uff65\u30e9\u30a4\u30b8\u30f3\u30b0\uff01 \uff5e\u7802\u5875\u306e\u5973\u738b\u3068\u6697\u9ed2\u306e\u4f7f\u5f92\uff5e (20 Oct 2021)\n<br>\n49) \u662d\u548c\u30ad\u795e\u8a08\u753b \u3050\u3060\u3050\u3060\u9f8d\u99ac\u5371\u6a5f\u4e00\u9aea\uff01 \u6d88\u3048\u305f\u30ce\u30c3\u30d6\u30d8\u30c3\u30c9\u306e\u8b0e (17 Nov 2021)\n<br>\n50) \u671f\u9593\u9650\u5b9a\u30a4\u30d9\u30f3\u30c8\u300c\u975e\u970a\u9577\u751f\u5b58\u570f \u30c4\u30f3\u30b0\u30fc\u30b9\u30ab\uff65\u30b5\u30f3\u30af\u30c1\u30e5\u30a2\u30ea\u300d(18 Dec 2021)\n<br>\n51) \u30de\u30f3\u30ac\u3067\u5206\u304b\u308b\uff01Fate/Grand Order\u00d7Fate/Grand Order\u30b3\u30e9\u30dc\u30ec\u30fc\u30b7\u30e7\u30f3\u30a4\u30d9\u30f3\u30c8\u300c\u9023\u7d9a\u6d3b\u5287\u795e\u8a71 \u30df\u30b7\u30b7\u30c3\u30d4\uff65\u30df\u30b5\u30b5\u30a4\u30b6\u30fc\u30ba\u300dTVCM (27 Apr 2022)",
-            trailer: {
-                id: "AGepNnFXd3c",
-                site: "youtube",
-                thumbnail: "https://i.ytimg.com/vi/AGepNnFXd3c/hqdefault.jpg",
-            },
-            id: 101184,
-            status: "RELEASING",
-            title: "Fate/Grand Order CMs",
-        },
-        {
-            cover_image:
                 "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b111321-3MFjZgG1muls.jpg",
             banner_image:
                 "https://s4.anilist.co/file/anilistcdn/media/anime/banner/111321-nnetF1qONAcE.jpg",
             description:
+                "The second season of <i>Tate no Yuusha no Nariagari</i>.",
+            banner_highlight:
                 "The second season of <i>Tate no Yuusha no Nariagari</i>.",
             trailer: {
                 id: "gMZDGyihTyc",
@@ -1450,6 +1438,8 @@ export default {
                 "https://s4.anilist.co/file/anilistcdn/media/anime/banner/114099-Pg1PTtJsBia6.jpg",
             description:
                 "After the defeat of the demon lord Hadlar, all of the monsters were unleashed from his evil will and moved to the island of Delmurin to live in peace. Dai is the only human living on the island. Having been raised by the kindly monster Brass, Dai's dream is to grow up to be a hero. He gets to become one when Hadlar is resurrected and the previous hero, Avan, comes to train Dai to help in the battle. But Hadlar, announcing that he now works for an even more powerful demon lord, comes to kill Avan. To save his students, Avan uses a Self-Sacrifice spell to attack, but is unable to defeat Hadlar. When it seems that Dai and Avan's other student Pop are doomed, a mark appears on Dai's forehead and he suddenly gains super powers and is able to fend off Hadlar. The two students then go off on a journey to avenge Avan and bring peace back to the world.",
+            banner_highlight:
+                "Dai's dream is to grow up to be a hero, that dream gets fulfilled when the evil demon lord Hadlar is resurrected.",
             trailer: {
                 id: "RrwbuwhIwbA",
                 site: "youtube",
@@ -1466,6 +1456,8 @@ export default {
                 "https://s4.anilist.co/file/anilistcdn/media/anime/banner/121176-Q7qhliNYlShC.jpg",
             description:
                 "Anime adaptation of Part 2 (Volume 3 & 4) of <i>Honzuki no Gekokujou</i>.<br>\n<br>\nAn immense display of mana in front of the Knight\u2019s Order has earned Myne the attention of nobles. The result? Yet more people appear hoping to exploit the young apprentice shrine maiden\u2019s value. And so the High Priest decides to shelter Myne in the temple to safeguard her from the impending danger he foresees. But Myne\u2019s main concern is still books, and she works to advance the printing process so that their price falls and more people can buy them. Her long winter in the temple away from her family begins, but everything changes as the harsh winter passes and the spring nears, offering a glimpse into what the future holds for this biblio-fantasy.",
+            banner_highlight:
+                "Part 2 of <i>Honzuki no Gekokujou</i>, Myne has caught the attention of nobles who seek to exploit her.",
             trailer: {
                 id: "7gpL3E5ezH4",
                 site: "youtube",
@@ -1482,6 +1474,8 @@ export default {
                 "https://s4.anilist.co/file/anilistcdn/media/anime/banner/123330-g5hGEeefeioP.jpg",
             description:
                 "The second season of <i>Machikado Mazoku</i>.<br>\n<br>\nShamiko, AKA Shadow Mistress Yuuko, aims to break the curse placed on her family by the Clan of Light. Along the way, she forms an unlikely allegiance with Momo, a rival from the Light Clan! They\u2019ll need to work together to find another magical girl who\u2019s gone mysteriously missing, and what this? There\u2019s a dangerous force lurking somewhere in the city, plus Shamiko\u2019s mysterious father might be closer than she thinks?",
+            banner_highlight:
+                "The second season of <i>Machikado Mazoku</i>. There are dangerous forces lurking in the city and Shamikos mysterious father might be closer than she thinks.",
             trailer: {
                 id: "GEe40BIkfGA",
                 site: "youtube",
@@ -1497,6 +1491,8 @@ export default {
             banner_image:
                 "https://s4.anilist.co/file/anilistcdn/media/anime/banner/125367-hGPJLSNfprO3.jpg",
             description:
+                "The third season of <i>Kaguya-sama wa Kokurasetai: Tensaitachi no Renai Zunousen</i>.",
+            banner_highlight:
                 "The third season of <i>Kaguya-sama wa Kokurasetai: Tensaitachi no Renai Zunousen</i>.",
             trailer: {
                 id: "RN4FFgHpAZo",
@@ -1514,6 +1510,8 @@ export default {
                 "https://s4.anilist.co/file/anilistcdn/media/anime/banner/125682-7RbH9WnUc6t1.jpg",
             description:
                 'Based on an idol-training mobile game produced by <i>Liber Entertainment</i> and <i>Pony Canyon</i>.<br><br>The brand-new voice actor office "AiRBLUE" has no track record or experience. Aspiring voice actors with rich individuality are signed on to the office. They do their best to achieve their dreams, but it\'s a tough world out there. No matter how much they practice, not everyone will pass the audition.',
+            banner_highlight:
+                'Aspiring voice actors with rich individuality are signed on to the office "AiRBLUE". They do their best to achieve their dreams, but it\'s a tough world out there.',
             trailer: {
                 id: "1fO5y_z9xw8",
                 site: "youtube",
@@ -1530,6 +1528,8 @@ export default {
                 "https://s4.anilist.co/file/anilistcdn/media/anime/banner/126367-LmnoJBTDnmfE.jpg",
             description:
                 "Unstable energies of the our world and an another realm has ripped open a rift of time and space. It is the only passage where monsters from the other realm can enter this world. To stop the invading monsters, a group of chosen people step forward to fight and protect the world at the rift.",
+            banner_highlight:
+                "Monsters are entering through a rift of time and space, to stop the invading monsters, a group of chosen people step forward to fight and protect the world at the rift.",
             trailer: {
                 id: "tL-Whfy6bWE",
                 site: "youtube",
@@ -1546,6 +1546,7 @@ export default {
                 "https://s4.anilist.co/file/anilistcdn/media/anime/banner/127911-lMXBdTxUGPEM.jpg",
             description:
                 "The ultimate \"heartthrob girlfriend\" appears! Naturally unlucky high school student Izumi's girlfriend is his classmate Shikimori. She has a beautiful smile and kind personality and always seems happy when she's with Izumi. She's a pretty, cute, and loving girlfriend, but when Izumi's in trouble\u2026 she transforms into a super cool \"heartthrob girlfriend!\" The fun lives of the cute and cool Shikimori, Izumi, and their good friends never end!",
+            banner_highlight: 'The ultimate "heartthrob girlfriend" appears!',
             trailer: {
                 id: "IRxdEcemmsE",
                 site: "youtube",
@@ -1562,6 +1563,8 @@ export default {
                 "https://s4.anilist.co/file/anilistcdn/media/anime/banner/129193-ac5BiVxEdZ02.jpg",
             description:
                 "When interdimensional travelers from an otherworldly land known as \u201cJapan\u201d appear, they often bring death and destruction. It\u2019s up to Executioners like Menou to track and exterminate the Lost Ones before they wreak havoc. When Menou encounters a beguiling Lost One named Akari, it\u2019s bloody business as usual\u2026 until Menou discovers Akari can cheat death, that is. Even so, Menou has a job to do, and she is committed to her executioner\u2019s mission come hell or high water \u2014 provided her newly stirring feelings don\u2019t get in the way.",
+            banner_highlight:
+                "Bringers of death and destruction from an otherwordly land known as \u201cJapan\u201d appear. It\u2019s up to Executioners like Menou to track and exterminate the Lost Ones.",
             trailer: {
                 id: "IKaYl9iuQkM",
                 site: "youtube",
@@ -1578,6 +1581,8 @@ export default {
                 "https://s4.anilist.co/file/anilistcdn/media/anime/banner/129201-eeCsKFrCSQPS.jpg",
             description:
                 "A sci-fi, summer story filled with suspense set on a small island with Shinpei Aijiro, whose childhood friend Ushio Kofune died. He returns to his hometown for the first time in two years for the funeral. Sou Hishigata, his best friend, suspects something's off with Ushio's death, and that someone can die next. <br>\n<br>\nA sinister omen is heard as an entire family next door suddenly disappears the following day. Furthermore, Mio implicates a \"shadow\" three days before Ushio's death. ",
+            banner_highlight:
+                "A sci-fi, summer story filled with suspense set on a small island with Shinpei Aijiro, whose childhood friend Ushio Kofune died.",
             trailer: {
                 id: "_JgOMtS2FkE",
                 site: "youtube",
@@ -1594,6 +1599,8 @@ export default {
                 "https://s4.anilist.co/file/anilistcdn/media/anime/banner/130319-PNCifUezXMIF.jpg",
             description:
                 "The story begins 15 years after the demon king was defeated and the world has become peaceful. Kotone, who graduated from school and became a magician, inquired the kingdom-affiliated RPG Real Estate in order to find a new home. In reality, RPG Real Estate was Kotone's place of employment, and together with Fa, a demi-human, the priest Rufuria, and the soldier Rakira, they help support the searches of new homes for the customers with various circumstances.",
+            banner_highlight:
+                "A magician, a demi-human, a priest and a soldier help searchers with various circumstances in the search of new homes.",
             trailer: {
                 id: "Y0v_26LWUhk",
                 site: "youtube",
@@ -1610,6 +1617,8 @@ export default {
                 "https://s4.anilist.co/file/anilistcdn/media/anime/banner/130586-77NEr6F8Kvcq.jpg",
             description:
                 "As the most powerful entity of all time, the Demon Lord Varvatos thinks life is a big fat snore. When he takes matters into his own hands and decides to reincarnate, he calibrates his magical strength to be perfectly average. But there is no way he could have predicted that everyone in the modern world would be weak as hell, which means he is totally overpowered once again! Reborn under the name Ard, he has ladies fawning over him, the royal family begging him to become the next king, and an ex-minion insisting on killing him?! But Ard has a one-track mind, and he won't stop at anything to achieve his ultimate goal!",
+            banner_highlight:
+                "The Demon Lord Varvatos attempts to reincarnate as a magically average nobody, but how coule he know that everyone was so weak?!",
             trailer: {
                 id: "nSZFVfvJSZQ",
                 site: "youtube",
@@ -1626,6 +1635,8 @@ export default {
                 "https://s4.anilist.co/file/anilistcdn/media/anime/banner/132010-6KV20Q2umOrA.jpg",
             description:
                 "There are two sides to every coin...light vs. dark, good vs. evil, love vs. hate. Sometimes the line between the two grows thin...and it's so, so easy to cross. So it's no surprise that Fudo Aikawa, A.K.A. Red Gelato of the Gelato Five and hero to all people, just may have happened to fall for the villainess and member of the shadow organization Gekko, Desumi Magahara! But when opposites like these attract, there's more than a few obstacles to their love...! What's a pair like this to do?",
+            banner_highlight:
+                "There are two sides to every coin...light vs. dark, good vs. evil, love vs. hate. Sometimes the line between the two grows thin...and it's so, so easy to cross.",
             trailer: {
                 id: "t_LOPSpeYvE",
                 site: "youtube",
@@ -1642,6 +1653,8 @@ export default {
                 "https://s4.anilist.co/file/anilistcdn/media/anime/banner/132171-CZiw1HyGi5cf.jpg",
             description:
                 "Danseur noble--a ballet dancer qualified to dance the role of the prince. Second-year junior high school student Murao Junpei was fascinated by ballet as a boy, but gave up on dancing after his father's death, as he had to become a man. However, one day, a beautiful transfer student named Godai Miyako appears before him. Miyako takes notice in Junpei's love of ballet and invites him to dance with her. Along with Miyako's cousin Mori Ruou, he begins his career as a full-fledged ballet dancer, with the aim of becoming the world's best dancer--the Danseur noble! Only those who have sacrificed everything are permitted to stand in the beautiful and harsh world of classical ballet. What will be the fate of a total beginner like Junpei?!",
+            banner_highlight:
+                "Danseur noble--a ballet dancer qualified to dance the role of the prince.",
             trailer: {
                 id: "rd0qAYtN8Ck",
                 site: "youtube",
@@ -1658,6 +1671,8 @@ export default {
                 "https://s4.anilist.co/file/anilistcdn/media/anime/banner/132474-tRgSDa9ltt0m.jpg",
             description:
                 "One day, a gamer played video games until he fell asleep\u2026and when he woke up, he found himself in the game world\u2013as a skeleton! Equipped with the powerful weapons and armor of his avatar but stuck with its frightening skeletal appearance, Arc has to find a place for himself in this new, fantastical land. All his hopes for a quiet life are dashed when he crosses paths with a beautiful elven warrior, setting him on a journey full of conflict and adventure.",
+            banner_highlight:
+                "One day, a gamer played video game until he fell asleep\u2026and when he woke up, he found himself in the game world\u2013as a skeleton!",
             trailer: {
                 id: "8XkdWCVUusA",
                 site: "youtube",
@@ -1673,7 +1688,9 @@ export default {
             banner_image:
                 "https://s4.anilist.co/file/anilistcdn/media/anime/banner/132532-hVuSAWGWMxCA.jpg",
             description:
-                "Nagomu Irino returns to his Kyoto home for the first time in ten years when his father is hospitalized. Nagomu is eager to take over Ryokushou, the family's Japanese sweet shop, but he's instead asked to be a father figure to Itsuka Yukihira, the girl everyone calls the successor. ",
+                "Nagomu Irino returns to his Kyoto home for the first time in ten years when his father is hospitalized. Nagomu is eager to take over Ryokushou, the family's Japanese sweet shop, but he's instead asked to be a father figure to Itsuka Yukihira, the girl everyone calls the successor.",
+            banner_highlight:
+                "Nagomu is eager to take over Ryokushou, the family's Japanese sweet shop, but he's instead asked to be a father figure to Itsuka Yukihira, the girl everyone calls the successor.",
             trailer: {
                 id: "TVup3UuwfGI",
                 site: "youtube",
@@ -1689,6 +1706,8 @@ export default {
             banner_image:
                 "https://s4.anilist.co/file/anilistcdn/media/anime/banner/133340-2xCWSrxo7NBd.jpg",
             description:
+                "Snack Time! is NIJISANJI's first full-scale 3D animation video content where fans can catch snippets of the daily lives and shenanigans of their favorite NIJISANJI VTubers.",
+            banner_highlight:
                 "Snack Time! is NIJISANJI's first full-scale 3D animation video content where fans can catch snippets of the daily lives and shenanigans of their favorite NIJISANJI VTubers.",
             trailer: {
                 id: "JCAYHRD8A0U",
@@ -1706,6 +1725,8 @@ export default {
                 "https://s4.anilist.co/file/anilistcdn/media/anime/banner/133412-Q0qAtZVnGsYF.jpg",
             description:
                 'Those that use "voice medicine," the ability to heal injuries and cure illnesses with song, are called "healers." There are three apprentice healers working at the Karasuma Voice Treatment Center. Kana Fujii, an energetic girl who sets the tone, the strong-willed lady Reimi Itsushiro, and Hibiki Morishima who is caring but firm. These three first year high school girls are training after school to become full-fledged Healers. With the addition of Sonia Yanagi, a returnee who is a certified C-level healer, the girls are singing songs of healing as they work towards their dreams.',
+            banner_highlight:
+                "There are three apprentice healers working at the Karasuma Voice Treatment Center, the girls are singing songs of healing as they work towards their dreams.",
             trailer: {
                 id: "T-I82IZatt4",
                 site: "youtube",
@@ -1721,6 +1742,8 @@ export default {
             banner_image:
                 "https://s4.anilist.co/file/anilistcdn/media/anime/banner/133891-pm9Tjc86524z.jpg",
             description:
+                "The second season of <i>Love Live! Nijigasaki Gakuen School Idol Doukoukai</i>.",
+            banner_highlight:
                 "The second season of <i>Love Live! Nijigasaki Gakuen School Idol Doukoukai</i>.",
             trailer: {
                 id: "ZI5y8oPJcOk",
@@ -1738,6 +1761,8 @@ export default {
                 "https://s4.anilist.co/file/anilistcdn/media/anime/banner/134732-nFMPjFcHBTbk.jpg",
             description:
                 "Ashito Aoi is a young, aspiring soccer player from a backwater town in Japan. His hopes of getting into a high school with a good soccer club are dashed when he causes an incident during a critical match for his team, which results in their loss and elimination from the tournament. Nevertheless, he catches the eye of someone important who happened to be visiting from Tokyo. How will things turn out for Ashito?",
+            banner_highlight:
+                "Ashito Aoi's hopes of getting into a high school with a good soccer club are dashed when he causes an incident during a critical match for his team.",
             trailer: {
                 id: "5hIIBK5H-Ug",
                 site: "youtube",
@@ -1754,6 +1779,8 @@ export default {
                 "https://s4.anilist.co/file/anilistcdn/media/anime/banner/136517-77UrTamCVZis.jpg",
             description:
                 "Vanguard 10th Anniversary Special Project Mini Anime: <i>mini vanguard Large</i> <br><br>\n\nThe stage is set on a moon of Planet Cray, \u201cAniversario\u201d.\nTo develop the moon, Selka summons Aichi, Chrono and friends\nA large undertaking by familiar vanguard characters! <br> ",
+            banner_highlight:
+                "The stage is set on a moon of Planet Cray, \u201cAniversario\u201d. To develop the moon, Selka summons Aichi, Chrono and friends. A large undertaking by familiar vanguard characters!",
             trailer: {
                 id: "YP8-B8Uog2M",
                 site: "youtube",
@@ -1770,6 +1797,8 @@ export default {
                 "https://s4.anilist.co/file/anilistcdn/media/anime/banner/137281-kWj2z1Nk8akA.jpg",
             description:
                 'The story follows the "indecipherable" daily life of the short and quiet Reina Aharen and Raidou who sits next to her. Aharen is not so good at gauging the distance between people, and Raidou initially felt some distance between the two of them. One day, when Raidou picked up the eraser that Aharen had dropped, the distance between them suddenly became uncomfortably close.',
+            banner_highlight:
+                "Aharen is not so good at gauging the distance between people, and Raidou initially felt some distance between the two of them. Suddenly one day, the distance between them became uncomfortably close.",
             trailer: {
                 id: "Rd4usifUuEY",
                 site: "youtube",
@@ -1786,6 +1815,8 @@ export default {
                 "https://s4.anilist.co/file/anilistcdn/media/anime/banner/137309-FY8EoCpLsbHJ.jpg",
             description:
                 'Sightings of mysterious creatures known as "Hologram Ghosts" have been a popular topic on social networks for the past few years. According to the rumors, several people have fallen victim to these specters. Those fortunate to survive their encounters with the paranormal beings claim that they resembled glitched holograms.<br>\n<br>\nHazakura Academy middle school student Hiro Amanokawa believes these sightings are merely an urban legend. However, as the incidents start to increase in frequency, he is reminded of the day his father suddenly vanished, with strange digital watches serving as the only relics of his disappearance. Much like the other sightings, what happened to Hiro\'s father cannot be explained by conventional logic.<br>\n<br>\nOne day, when a fellow student in the academy is attacked by a Hologram Ghost, Hiro and his friend Kiyoshirou Higashimitarai decide to look into the matter. Little does Hiro know that this investigation will be their first step toward discovering a dangerous world previously unknown to mankind.',
+            banner_highlight:
+                'Sightings of mysterious creatures known as "Hologram Ghosts" have been a popular topic for the past few years. According to the rumors, several people have fallen victim to these specters.',
             trailer: {
                 id: "tZNciGqbDao",
                 site: "youtube",
@@ -1802,6 +1833,8 @@ export default {
                 "https://s4.anilist.co/file/anilistcdn/media/anime/banner/140457-2VXKaTEWOlOP.jpg",
             description:
                 "After saving humanity from the despicable Demon King, Leo Demonhart does not earn a hero\u2019s standing. Instead, he is regarded with suspicion and hostility by those he fought to protect. Treated as a pariah with nowhere else to turn, exiled Leo seeks a position in the army of his former nemesis! But the army is not what it once was before its defeat at Leo\u2019s hands, so to maintain his new position, Leo must whip the forces back into fighting shape.",
+            banner_highlight:
+                "After saving humanity from the despicable Demon King, Leo Demonhart does not earn a hero\u2019s standing. Instead, he is regarded with suspicion and hostility.",
             trailer: {
                 id: "KP_ynzTiPj8",
                 site: "youtube",
@@ -1818,6 +1851,8 @@ export default {
                 "https://s4.anilist.co/file/anilistcdn/media/anime/banner/140960-Z7xSvkRxHKfj.jpg",
             description:
                 'Everyone has a part of themselves they cannot show to anyone else.\n<br><br>\nAt a time when all nations of the world were involved in a fierce war of information happening behind closed doors, Ostania and Westalis had been in a state of cold war against one another for decades. The Westalis Intelligence Services\' Eastern-Focused Division (WISE) sends their most talented spy, "Twilight," on a top-secret mission to investigate the movements of Donovan Desmond, the chairman of Ostania\'s National Unity Party, who is threatening peace efforts between the two nations.\n<br><br>\nThis mission is known as "Operation Strix." It consists of "putting together a family in one week in order to infiltrate social gatherings organized by the elite school that Desmond\'s son attends." <br><br>\n"Twilight" takes on the identity of psychiatrist Loid Forger and starts looking for family members. But Anya, the daughter he adopts, turns out to have the ability to read people\'s minds, while his wife, Yor, is an assassin! With it being in each of their own interests to keep these facts hidden, they start living together while concealing their true identities from one another. <br>\nWorld peace is now in the hands of this brand-new family as they embark on an adventure full of surprises.',
+            banner_highlight:
+                "Everyone has a part of themselves they cannot show to anyone else.",
             trailer: {
                 id: "ofXigq9aIpo",
                 site: "youtube",
@@ -1834,6 +1869,8 @@ export default {
                 "https://s4.anilist.co/file/anilistcdn/media/anime/banner/141014-xA629OlhxPNX.jpg",
             description:
                 "High school student Katagiri Yuuichi, who values friendship above all else, enjoys a fulfilling life with his close friends Sawagiri Shiho, Mikasa Tenji, Shibe Makoto, and Kokorogi Yutori.<br>\n<br>\nHowever, after a particular incident, they're dragged into a debt repayment game.<br>\n <br>\nThe only way to beat the \"Tomodachi Game\" is to not doubt their friends. Bound together by solid friendships, the game should've been easy, but\u2013 The hugely popular comic that sold over two million copies is finally becoming an anime! Will they trust or betray their precious friends? The true nature of humanity is exposed in the ultimate psychological game!",
+            banner_highlight:
+                "A group of friends dragged into a debt repayment game. Will they trust or betray their precious friends? The true nature of humanity is exposed in the ultimate psychological game!",
             trailer: {
                 id: "y-hPQ0-orMM",
                 site: "youtube",
@@ -1850,6 +1887,8 @@ export default {
                 "https://s4.anilist.co/file/anilistcdn/media/anime/banner/141774-9fkNcIakgDUD.jpg",
             description:
                 "Fate and reincarnation deliver brilliant military strategist, Kongming, from warring, ancient China to Japan\u2019s modern party hot spot in Shibuya City, Tokyo. After a lifetime of battles and military skirmishes, Kongming wished with his last breath to be reborn in a world of peace and prosperity. It\u2019s nearly two millennia later and he\u2019s finding his way in a very different world than that of his past life. When he meets Eiko, an amateur musician with big dreams, the unlikely duo strikes up an even unlikelier friendship. Eiko has street smarts to help Kongming navigate this strange new world, and Kongming will use his strategic mind to help Eiko achieve stardom!\n<br><br>\n<i>An advanced online screening of the first episode was held on March 31, 2022, but the weekly TV release began on April 5, 2022.</i>",
+            banner_highlight:
+                "Tokyo. After a lifetime of battles and military skirmishes, Kongming wished with his last breath to be reborn in a world of peace and prosperity.",
             trailer: {
                 id: "XpfQjehkwDA",
                 site: "youtube",
@@ -1866,6 +1905,8 @@ export default {
                 "https://s4.anilist.co/file/anilistcdn/media/anime/banner/142074-X972q2Mdi8y0.jpg",
             description:
                 'Leon, a former Japanese worker, was reincarnated into an "otome game" world, and despaired at how it was a world where females hold dominance over males. It was as if men were just livestock that served as stepping stones for females in this world. The only exceptions were the game\'s romantic targets, a group of handsome men led by the crown prince. In these bizarre circumstances, Leon held one weapon: his knowledge from his previous world, where his brazen sister had forced him to complete this game. Leon, who really just wants to to live as a shut-in in the countryside, uses that knowledge to raise a ferocious revolt against the women and handsome men.',
+            banner_highlight:
+                'Leon, a former Japanese worker, was reincarnated into an "otome game" world, and despaired at how it was a world where females hold dominance over males.',
             trailer: {
                 id: "8G9dunL-zPI",
                 site: "youtube",
@@ -1882,6 +1923,8 @@ export default {
                 "https://s4.anilist.co/file/anilistcdn/media/anime/banner/142984-UuQocCUCj5oT.jpg",
             description:
                 "The second season of <i>Komi-san wa, Komyushou desu</i>. <br><br>\n\nKomi and pals are back! Who else will Komi make friends with? How will her relationship with Tadano evolve? \n",
+            banner_highlight:
+                "The second season of <i>Komi-san wa, Komyushou desu</i><br>Komi and pals are back! Who else will Komi make friends with? How will her relationship with Tadano evolve?",
             trailer: {
                 id: "7n9JGuR0HrY",
                 site: "youtube",
@@ -1898,6 +1941,8 @@ export default {
                 "https://s4.anilist.co/file/anilistcdn/media/anime/banner/145478-1kFLUuuEp53e.jpg",
             description:
                 '<i>Aogami High School collapsed due to undetermined circumstances. Several details of the accident remain mysterious, including reported involvement by numerous students and staff members, a reported large earthquake occurring but not registered in the records of the Japan Meteorological Agency, and the number of missing persons not matching the student list.</i><br><br>\n\nYour first day at a new school.<br>\nYou have just finished greeting your classmates and are seated in front of them, taking a curious look.<br>\nClass is almost over and recess is about to begin.<br><br>\n\nAt first glance, it looks like an ordinary high school. But...<br>\nAogami High School has had its share of so-called school ghost stories.<br><br>\n\nOne of them is that "if you don\'t treat the new student well, bad luck will happen". And then...',
+            banner_highlight:
+                "Aogami High School collapsed due to undetermined circumstances. Several details of the accident remain mysterious.",
             trailer: {
                 id: "fUneGc-vkSY",
                 site: "youtube",
@@ -1914,6 +1959,8 @@ export default {
                 "https://s4.anilist.co/file/anilistcdn/media/anime/banner/146488-qNMLBLnqWMo6.jpg",
             description:
                 'Announced at GUNDAM.INFO\'s "GUNDAM FIGURES LIVE!!!" live stream, the new anime project will reveal anecdotes, unresolved mysteries, and stories to fill-in gaps not explored between the TV anime\'s first and second seasons of <i>Mobile Suit Gundam 00</i>.<br><br>\n\nSetsuna F. Seiei successfully solved the conflict in Azadistan. However, for Celestial Being that was only a temporary intervention. Meanwhile, the world worked in secret on a counterattack plan in retaliation: Celestial Being through their "Double Drive" research, further strengthening Gundam Technology. <br><br>\n\nIncludes:<br>\n- EPISODE DEVISE',
+            banner_highlight:
+                "Setsuna F. Seiei successfully solved the conflict in Azadistan. However, for Celestial Being that was only a temporary intervention.",
             trailer: {
                 id: "KXp9rlyD3JA",
                 site: "youtube",
