@@ -51,3 +51,11 @@ export function multirun(
     }
     return res;
 }
+
+export function truncate(str, length) {
+    if (str.length < length) {
+        return str;
+    }
+    const substr = str.substr(0, length - 1);
+    return str.substr(0, substr.lastIndexOf(" ")) + "&hellip;";
+}

@@ -1,6 +1,7 @@
 <!-- TODO: Refactor and create comments -->
 <script>
     import { onMount } from "svelte";
+    import { truncate } from "../js/utility.js";
 
     export let data;
     export let func;
@@ -14,14 +15,6 @@
             document.documentElement.clientWidth ||
             document.body.clientWidth;
         right = container.getBoundingClientRect().x > innerWidth - 650;
-    }
-
-    function truncate(str, length) {
-        if (str.length < length) {
-            return str;
-        }
-        const substr = str.substr(0, length - 1);
-        return str.substr(0, substr.lastIndexOf(" ")) + "&hellip;";
     }
 
     onMount(resize);
