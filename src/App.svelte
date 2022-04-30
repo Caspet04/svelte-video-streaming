@@ -1,6 +1,7 @@
 <!-- TODO: Refactor and create comments -->
 <script>
     import Category from "./components/Category.svelte";
+    import Banner from "./components/Banner.svelte";
     import data from "./data/data";
 
     const ITEMS_PER_CATEGORY = 20;
@@ -37,9 +38,7 @@
 
     <div id="navbar" />
 
-    <div id="banner">
-        <div><h1>Aniflix</h1></div>
-    </div>
+    <Banner clickFunction={itemClicked} />
 
     <div id="category-list">
         <Category
@@ -83,32 +82,6 @@
         right: 0;
         height: 50px;
         background: darkblue;
-    }
-
-    #banner {
-        padding-top: 20px;
-        padding-bottom: 20px;
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        overflow-x: hidden;
-        background-color: rgb(0, 0, 20);
-    }
-
-    #banner div h1 {
-        color: white;
-        margin-bottom: 2em;
-        font-size: 3em;
-    }
-
-    #banner div {
-        display: flex;
-        align-items: flex-end;
-        justify-content: center;
-        width: 1024px;
-        height: 576px;
-        background-image: url(https://live.staticflickr.com/7450/10612779376_9b93277b9e_b.jpg);
-        box-shadow: 0 0 25px 30px rgb(0, 0, 20) inset;
     }
 
     #overlays div {
