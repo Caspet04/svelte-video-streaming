@@ -4,8 +4,6 @@
     import Banner from "./components/Banner.svelte";
     import data from "./data/data";
 
-    const ITEMS_PER_CATEGORY = 20;
-
     let clickedData;
 
     // This is just to make it easier to change all category functions at once if need be
@@ -42,25 +40,29 @@
 
     <div id="category-list">
         <Category
-            numberOfItems={ITEMS_PER_CATEGORY}
+            numberOfItems={20}
+            numberOfRows={2}
             title="Airing This Week"
             list={data.RELEASING}
             func={itemClicked}
         />
         <Category
-            numberOfItems={ITEMS_PER_CATEGORY}
+            numberOfItems={20}
+            numberOfRows={2}
             title="Recommended"
             list={data.FINISHED}
             func={itemClicked}
         />
         <Category
-            numberOfItems={ITEMS_PER_CATEGORY}
+            numberOfItems={20}
+            numberOfRows={2}
             title="Trending"
             list={data.RELEASING}
             func={itemClicked}
         />
         <Category
-            numberOfItems={ITEMS_PER_CATEGORY}
+            numberOfItems={10}
+            numberOfRows={1}
             title="To Come"
             list={data.NOT_YET_RELEASED}
             func={itemClicked}

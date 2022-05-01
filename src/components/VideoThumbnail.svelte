@@ -84,7 +84,7 @@
         box-sizing: border-box;
         z-index: 2;
         width: calc(var(--info-width) + var(--total-width));
-        border: solid var(--border-thickness) white;
+        border: solid var(--border-thickness) black;
     }
 
     .left.container.mouseover {

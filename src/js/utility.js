@@ -59,3 +59,19 @@ export function truncate(str, length) {
     const substr = str.substr(0, length - 1);
     return str.substr(0, substr.lastIndexOf(" ")) + "&hellip;";
 }
+
+export function repeatString(
+    str,
+    numberOfTimes,
+    spacer = "",
+    addLastSpace = false
+) {
+    let temp = "";
+    for (let i = 0; i < numberOfTimes; i++) {
+        temp += str;
+        if (addLastSpace || i != numberOfTimes - 1) {
+            temp += spacer;
+        }
+    }
+    return temp;
+}

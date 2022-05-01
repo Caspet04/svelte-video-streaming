@@ -1,16 +1,17 @@
 <!-- TODO: Refactor and create comments -->
 <script>
-    import { randomItem, multirun } from "../js/utility";
+    import { randomItem, multirun, repeatString } from "../js/utility";
     import VideoThumbnail from "./VideoThumbnail.svelte";
 
     export let func;
-    export let numberOfItems = 10;
+    export let numberOfItems;
+    export let numberOfRows;
     export let title = "Category";
     export let list = [];
 
     let usedItemList = [];
 
-    const MAX_RECURSIVE_DEPTH_RANDOM = 10;
+    const MAX_RECURSIVE_DEPTH_RANDOM = 50;
     const MULTIRUN_VERBOSE = false;
 
     function getRandom() {
@@ -32,7 +33,14 @@
 
 <div class="category">
     <h2 class="category-title">{title}</h2>
-    <div class="category-content">
+    <div
+        class="category-content"
+        style="grid-template-rows: {repeatString(
+            'min-content',
+            numberOfRows,
+            ' '
+        )};"
+    >
         {#each Array(numberOfItems) as i}
             <VideoThumbnail
                 data={getRandom()}
@@ -60,7 +68,6 @@
     .category-content {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(230px, auto));
-        grid-template-rows: min-content min-content;
         grid-auto-rows: 0;
     }
 </style>
