@@ -13,26 +13,28 @@
 </script>
 
 <main>
-    <div id="overlays">
-        {#if clickedData != null}
-            <div
-                id="item-information-overlay"
-                on:click={() => {
-                    clickedData = null;
-                }}
-            >
-                <div id="item-information-content">
+    {#if clickedData != null}
+        <div
+            id="item-information-overlay"
+            on:click={() => {
+                clickedData = null;
+            }}
+        >
+            <div id="item-information-content">
+                <img
+                    id="item-cover-image"
+                    src={clickedData.cover_image}
+                    alt=""
+                />
+                <div id="item-information">
                     <h1 id="item-title">{clickedData.title}</h1>
-                    <p id="item-description">{@html clickedData.description}</p>
-                    <img
-                        id="item-cover-image"
-                        src={clickedData.cover_image}
-                        alt=""
-                    />
+                    <p id="item-description">
+                        {@html clickedData.description}
+                    </p>
                 </div>
             </div>
-        {/if}
-    </div>
+        </div>
+    {/if}
 
     <div id="navbar" />
 
@@ -86,7 +88,11 @@
         background: darkblue;
     }
 
-    #overlays div {
+    #item-information-overlay {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
         position: fixed;
         top: 0;
         bottom: 0;
@@ -94,17 +100,37 @@
         right: 0;
 
         z-index: 100;
-    }
 
-    #item-information-overlay {
         background-color: rgba(0, 0, 0, 0.5);
     }
 
     #item-information-content {
-        margin: auto;
-        border-radius: 40px;
-        background-color: white;
+        display: grid;
+        grid-template-columns: min-content auto;
+        grid-template-rows: 100%;
+        column-gap: 2.5em;
+
         width: 50vw;
         height: 50vh;
+        padding: 50px;
+
+        border-radius: 40px;
+        background-color: black;
+        color: white;
+    }
+
+    #item-cover-image {
+        border-radius: 0.5em;
+        overflow: hidden;
+    }
+
+    #item-information {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: min-content auto;
+    }
+
+    #item-description {
+        overflow-y: scroll;
     }
 </style>
