@@ -48,7 +48,7 @@
     >
         {#key bannerIndex}
             <img
-                transition:slide
+                transition:slide={{ duration: 2000 }}
                 id="banner-image"
                 src={currentBanner.banner_image}
                 alt="BANNER"
@@ -135,7 +135,7 @@
 
     #banner-image-container {
         position: absolute;
-        top: 0;
+        bottom: 0;
         display: flex;
         align-items: flex-end;
         justify-content: center;
