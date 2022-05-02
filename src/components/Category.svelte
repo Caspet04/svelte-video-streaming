@@ -1,4 +1,4 @@
-<!-- TODO: Refactor and create comments -->
+<!-- TODO: Refactor and create comments, consider making into an image carousel with the content expanding on hover -->
 <script>
     import { randomItem, multirun, repeatString } from "../js/utility";
     import VideoThumbnail from "./VideoThumbnail.svelte";
