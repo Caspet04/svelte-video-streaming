@@ -8,7 +8,7 @@
 
     // This is just to make it easier to change all category functions at once if need be
     function itemClicked(data) {
-        clickedData = data;
+        // clickedData = data;
     }
 </script>
 
