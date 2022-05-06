@@ -26,10 +26,16 @@
             Episodes: {data.episodes_aired}/{data.episodes_total}
         </h5>
         <p class="info-description">{@html data.description}</p>
-        <div class="info-stats">
-            <p class="stats-score">{data.score}</p>
-            <p class="stats-status">{data.status}</p>
-            <p class="stats-genre">{data.genres}</p>
+        <div class="stats">
+            <p class="stats-score">
+                Score: <span class="stat">{data.score}/10</span>
+            </p>
+            <p class="stats-status">
+                Status: <span class="stat">{data.status}</span>
+            </p>
+            <p class="stats-genre">
+                Genres: <span class="stat">{data.genres}</span>
+            </p>
         </div>
     </div>
 </div>
@@ -66,7 +72,7 @@
         left: 0;
         right: 0;
 
-        background-color: rgba(0, 0, 0, 0.4);
+        background: rgba(0, 0, 0, 0.4);
 
         visibility: hidden;
     }
@@ -74,11 +80,19 @@
     .cover-title {
         margin-top: 0.1em;
         margin-bottom: 0.5em;
+
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+
         color: white;
     }
 
     .container:hover > .mouseover-info {
         visibility: visible;
+        transition: 0s visibility;
+        transition-delay: 0.25s;
     }
 
     .mouseover-info {
@@ -87,14 +101,10 @@
         left: 210px;
 
         width: 300px;
-        height: 400px;
-
-        padding: 10px 0;
 
         border-radius: 15px;
-
+        background: black;
         color: white;
-        background-color: black;
 
         visibility: hidden;
         z-index: 2;
@@ -102,20 +112,48 @@
 
     .info-title {
         padding: 0 10px;
+
+        border-radius: 15px 15px 0 0;
+        background: black;
+
+        overflow: hidden;
     }
 
     .info-episodes {
-        background-color: grey;
+        background: grey;
+        margin: 0;
         padding: 5px 10px;
     }
 
     .info-description {
+        display: -webkit-box;
+
+        margin: 5px 0 15px 0;
         padding: 0px 10px;
-        height: 200px;
+
+        -webkit-line-clamp: 10;
+        -webkit-box-orient: vertical;
+
+        background: black;
+
         overflow: hidden;
     }
 
-    .info-stats {
-        padding: 0 10px;
+    .stats {
+        padding: 5px 10px;
+        padding-bottom: 10px;
+        background: darkblue;
+        border-radius: 0 0 15px 15px;
+    }
+
+    .stats p {
+        margin: 0;
+    }
+
+    .stat {
+        color: darkgrey;
+    }
+    .stats-genre .stat {
+        color: blueviolet;
     }
 </style>

@@ -68,6 +68,5 @@
     .category-content {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(230px, auto));
-        grid-auto-rows: 0;
     }
 </style>
