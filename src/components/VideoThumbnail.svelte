@@ -17,6 +17,7 @@
         />
         <div class="play-symbol">
             <!-- TODO: Add a play symbol -->
+            <img src="./images/play_button.png" alt="" />
         </div>
     </div>
     <h3 class="cover-title">{data.title}</h3>
@@ -72,9 +73,19 @@
         left: 0;
         right: 0;
 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
         background: rgba(0, 0, 0, 0.4);
 
         visibility: hidden;
+        user-select: none;
+    }
+
+    .play-symbol img {
+        width: 50%;
+        -webkit-user-drag: none;
     }
 
     .cover-title {
