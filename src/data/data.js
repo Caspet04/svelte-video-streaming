@@ -1188,21 +1188,6 @@ export default {
         },
         {
             cover_image:
-                "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6856.jpg",
-            banner_image:
-                "https://s4.anilist.co/file/anilistcdn/media/anime/banner/6856-TLS8V7qSC0cS.jpg",
-            description: 'Music video for Bajune Tobeta\'s song "Aoi Chou".\n',
-            trailer: {
-                id: "xKbD2GXO_44",
-                site: "youtube",
-                thumbnail: "https://i.ytimg.com/vi/xKbD2GXO_44/hqdefault.jpg",
-            },
-            id: 6856,
-            status: "FINISHED",
-            title: "Blue Butterfly",
-        },
-        {
-            cover_image:
                 "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx7785-TMqYIFkWDCgy.jpg",
             banner_image:
                 "https://s4.anilist.co/file/anilistcdn/media/anime/banner/7785.jpg",
