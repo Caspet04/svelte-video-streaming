@@ -1,10 +1,26 @@
 <!-- TODO: Refactor and create comments -->
 <script>
+    import { onMount } from "svelte";
+
     export let data;
     export let func;
+
+    let container;
+    let right;
+
+    export function resize() {
+        let innerWidth =
+            window.innerWidth ||
+            document.documentElement.clientWidth ||
+            document.body.clientWidth;
+        right = container.getBoundingClientRect().x > innerWidth - 650;
+    }
+
+    onMount(resize);
+    window.addEventListener("resize", resize);
 </script>
 
-<div class="container">
+<div class="container" bind:this={container}>
     <div class="cover">
         <img
             src={data.cover_image}
@@ -21,7 +37,7 @@
         </div>
     </div>
     <h3 class="cover-title">{data.title}</h3>
-    <div class="mouseover-info">
+    <div class="mouseover-info {right ? 'right' : 'left'}">
         <h2 class="info-title">{data.title}</h2>
         <h5 class="info-episodes">
             Episodes: {data.episodes_aired}/{data.episodes_total}
@@ -81,6 +97,7 @@
 
         visibility: hidden;
         user-select: none;
+        pointer-events: none;
     }
 
     .play-symbol img {
@@ -119,6 +136,10 @@
 
         visibility: hidden;
         z-index: 2;
+    }
+
+    .mouseover-info.right {
+        left: -310px;
     }
 
     .info-title {
