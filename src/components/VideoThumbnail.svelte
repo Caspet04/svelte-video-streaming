@@ -5,6 +5,12 @@
     export let data;
     export let func;
 
+    const STATUS_TEXT = {
+        RELEASING: "Releasing",
+        FINISHED: "Finished",
+        NOT_YET_RELEASED: "Not Yet Released",
+    };
+
     let container;
     let right;
 
