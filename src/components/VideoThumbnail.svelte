@@ -40,18 +40,15 @@
     <div class="mouseover-info {right ? 'right' : 'left'}">
         <h2 class="info-title">{data.title}</h2>
         <h5 class="info-episodes">
-            Episodes: {data.episodes_aired}/{data.episodes_total}
+            Episodes: {data.episodes}
         </h5>
         <p class="info-description">{@html data.description}</p>
         <div class="stats">
-            <p class="stats-score">
-                Score: <span class="stat">{data.score}/10</span>
-            </p>
             <p class="stats-status">
                 Status: <span class="stat">{data.status}</span>
             </p>
             <p class="stats-genre">
-                Genres: <span class="stat">{data.genres}</span>
+                Genres: <span class="stat">{data.genres.join(", ")}</span>
             </p>
         </div>
     </div>

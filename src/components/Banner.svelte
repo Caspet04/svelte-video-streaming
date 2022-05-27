@@ -59,11 +59,9 @@
         <h1 id="banner-site-name">ANIFLIX</h1>
         <div id="banner-information">
             <h3 id="banner-title">{@html currentBanner.title}</h3>
-            {#each currentBanner.banner_highlight.split("<br>") as descPart}
-                <p class="banner-description">
-                    {@html descPart}
-                </p>
-            {/each}
+            <p id="banner-description">
+                {@html currentBanner.description}
+            </p>
         </div>
     </div>
 </div>
@@ -114,12 +112,17 @@
         margin-right: 3em;
     }
 
-    .banner-description {
+    #banner-description {
         width: 40vw;
         min-width: 500px;
 
         margin-top: 0;
         margin-bottom: 0.25em;
+
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
 
         color: white;
     }
