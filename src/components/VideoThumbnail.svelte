@@ -51,7 +51,7 @@
         <p class="info-description">{@html data.description}</p>
         <div class="stats">
             <p class="stats-status">
-                Status: <span class="stat">{data.status}</span>
+                Status: <span class="stat">{STATUS_TEXT[data.status]}</span>
             </p>
             <p class="stats-genre">
                 Genres: <span class="stat">{data.genres.join(", ")}</span>
