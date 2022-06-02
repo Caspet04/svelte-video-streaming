@@ -42,22 +42,27 @@
         )};"
     >
         {#each Array(numberOfItems) as i}
-            <VideoThumbnail
-                data={getRandom()}
-                func={(data) => {
-                    if (func) {
-                        func(data);
-                    }
-                }}
-            />
+            <div class="grid-item">
+                <VideoThumbnail
+                    data={getRandom()}
+                    func={(data) => {
+                        if (func) {
+                            func(data);
+                        }
+                    }}
+                />
+            </div>
         {/each}
     </div>
 </div>
 
 <style>
+    :root {
+        --x: 230px; /* TODO: The name of the variable doesn't describe what it does. */
+    }
     .category {
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: min(50px, 1vw);
+        margin-right: min(50px, 1vw);
     }
 
     .category-title {
@@ -67,6 +72,21 @@
 
     .category-content {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(230px, auto));
+        grid-template-columns: repeat(auto-fit, minmax(var(--x), auto));
+    }
+
+    .grid-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+        height: 100%;
+    }
+
+    @media only screen and (max-width: 600px) {
+        :root {
+            --x: 160px;
+        }
     }
 </style>

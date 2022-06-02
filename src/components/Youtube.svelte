@@ -5,9 +5,23 @@
 <iframe
     id="player"
     title="Something"
-    width="720"
-    height="480"
     src="https://www.youtube.com/embed/{videoId}"
     frameborder="0"
     allow="fullscreen"
 />
+
+<style>
+    :root {
+        --width: 60vw;
+    }
+    #player {
+        width: var(--width);
+        height: calc(var(--width) / calc(16 / 9));
+    }
+
+    @media only screen and (max-width: 600px) {
+        :root {
+            --width: 90vw;
+        }
+    }
+</style>

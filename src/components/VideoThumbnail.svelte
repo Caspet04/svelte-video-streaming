@@ -61,6 +61,13 @@
 </div>
 
 <style>
+    :root {
+        --thumbnail-width: 200px;
+        --thumbnail-height: 300px;
+        --mouseover-width: 300px;
+        --mouseover-offset: 10px;
+    }
+
     .container {
         position: relative;
         width: min-content;
@@ -69,12 +76,12 @@
     .cover {
         position: relative;
 
-        width: 200px;
-        height: 300px;
+        width: var(--thumbnail-width);
+        height: var(--thumbnail-height);
         /* NOTE: This is set due to the fact that they are in a grid and grids set
                  automatic mins */
-        min-width: 200xp;
-        min-height: 300px;
+        min-width: var(--thumbnail-width);
+        min-height: var(--thumbnail-height);
 
         overflow: hidden;
 
@@ -129,9 +136,9 @@
     .mouseover-info {
         position: absolute;
         top: 30px;
-        left: 210px;
+        left: calc(var(--thumbnail-width) + var(--mouseover-offset));
 
-        width: 300px;
+        width: var(--mouseover-width);
 
         border-radius: 15px;
         background: black;
@@ -142,7 +149,7 @@
     }
 
     .mouseover-info.right {
-        left: -310px;
+        left: calc(0px - var(--mouseover-width) - var(--mouseover-offset));
     }
 
     .info-title {
@@ -190,5 +197,18 @@
     }
     .stats-genre .stat {
         color: blueviolet;
+    }
+
+    @media only screen and (max-width: 600px) {
+        :root {
+            --thumbnail-width: 150px;
+            --thumbnail-height: 225px;
+            --mouseover-width: 225px;
+            --mouseover-offset: 7.5px;
+        }
+
+        .container:hover > .mouseover-info {
+            visibility: hidden;
+        }
     }
 </style>
